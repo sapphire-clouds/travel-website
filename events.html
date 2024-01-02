@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estonian Cultural Festivals and Events</title>
+<style>
+    
+body {
+    font-family: 'Arial', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+background-image: url("https://images.unsplash.com/photo-1547070451-e3857a8ea62a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21va2UlMjB0ZXh0dXJlfGVufDB8fDB8fHww");
+background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.festival-card {
+    width: calc(33.33% - 20px);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(63, 63, 63, 0.5);
+    margin: 15px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.festival-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.festival-card h2 {
+    margin-top: 0;
+    color: #fdfdfd;
+    font-size: 1.5rem;
+}
+
+.festival-card p {
+    color: #a4dbdb;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .festival-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Estonian Cultural Festivals and Events</h1>
+    </header>
+
+    <main id="festivals-container" class="container">
+        
+    </main>
+
+
+    <script>
+       const festivals = [
+    {
+        name: "Tallinn Music Week (TMW)",
+        description: "An annual springtime festival celebrating the best of Estonian and international music across various genres.",
+        location: "Tallinn",
+        when: "Typically held in spring"
+    },
+    {
+        name: "Tallinn Black Nights Film Festival (PÖFF)",
+        description: "A prestigious film festival showcasing a diverse range of international films, including features, documentaries, and shorts.",
+        location: "Tallinn",
+        when: "Annually in late autumn"
+    },
+    {
+        name: "Estonian Song and Dance Celebration",
+        description: "A monumental cultural event held every five years, celebrating Estonian folk music, dance, and traditions.",
+        location: "Tallinn",
+        when: "Every five years (next celebration in 2024)"
+    },
+    {
+        name: "Tartu Jazz Festival",
+        description: "A summer festival dedicated to jazz music, featuring local and international artists.",
+        location: "Tartu, Estonia's second-largest city",
+        when: "Summer months"
+    },
+    {
+        name: "Pärnu Weekend Festival",
+        description: "A major electronic music festival held in the picturesque coastal town of Pärnu.",
+        location: "Pärnu",
+        when: "Summer months"
+    },
+    {
+        name: "Estonian Food Festival",
+        description: "A culinary celebration showcasing traditional and modern Estonian cuisine.",
+        location: "Various locations across Estonia",
+        when: "Throughout the year at various times and locations"
+    },
+    {
+        name: "Medieval Days in Tallinn",
+        description: "A historical festival offering a glimpse into Tallinn's medieval past through reenactments, workshops, and performances.",
+        location: "Tallinn",
+        when: "Annually in summer"
+    },
+    {
+        name: "Estonian Open-Air Museum Events",
+        description: "An open-air museum near Tallinn hosting events that highlight Estonian folklore, crafts, and traditions.",
+        location: "Rocca al Mare, near Tallinn",
+        when: "Throughout the year"
+    },
+    {
+        name: "Estonian Design Festival (Disainiöö)",
+        description: "A festival celebrating Estonian design, showcasing innovative creations in fashion, furniture, and more.",
+        location: "Various locations across Estonia",
+        when: "Annually, with specific dates varying"
+    },
+    {
+        name: "Midsummer Celebrations (Jaanipäev)",
+        description: "A traditional summer solstice celebration featuring bonfires, singing, dancing, and ancient rituals.",
+        location: "Throughout Estonia, with various community events",
+        when: "Annually on the night of June 23rd"
+    }
+];
+
+const festivalsContainer = document.getElementById('festivals-container');
+
+festivals.forEach(festival => {
+    const card = document.createElement('div');
+    card.classList.add('festival-card');
+
+    card.innerHTML = `
+        <h2>${festival.name}</h2>
+        <p><strong>Description:</strong> ${festival.description}</p>
+        <p><strong>Location:</strong> ${festival.location}</p>
+        <p><strong>When:</strong> ${festival.when}</p>
+    `;
+
+    festivalsContainer.appendChild(card);
+});
+    </script>
+</body>
+
+</html>
