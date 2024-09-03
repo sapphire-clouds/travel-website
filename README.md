@@ -26,6 +26,13 @@ Check out the live version of the website here: [Estonia: Travel Website](https:
 ## Images
 - **Home Page**
   ![Home Page](https://github.com/user-attachments/assets/85ffae0d-1a9d-487f-b5ec-a3db5e96a73f)
+- **Destination Slider**
+  ![Destination](https://github.com/user-attachments/assets/899d1146-aab5-4130-94b4-c7c78c10352d)
+- **Contact Page**
+  ![Contact](https://github.com/user-attachments/assets/94aaba98-f32f-43f0-97b0-7446cbe3ca69)
+
+
+  
 
 ## Project Purpose
 
