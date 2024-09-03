@@ -1,16 +1,30 @@
 # Travel Website Project
 
-This is my first actual frontend project, created as a task for the task phase of a student project. The goal was to design and develop a travel website showcasing various destinations, itineraries, and travel packages.
-
-## Features
-- Clean and responsive design
-- Attractive layouts for travel destinations
-- Simple and intuitive navigation
+Welcome to my first actual frontend project! This travel website was created as part of a student project to design and develop a platform that showcases various destinations, itineraries, and travel packages.
 
 ## Technologies Used
-- HTML
-- CSS
+- **HTML:** For structuring the content.
+- **CSS:** For styling and layout.
+- **JavaScript:** For interactive features and functionality.
+
+## Live Site
+
+Check out the live version of the website here: [Explore Estonia Travel Website](https://sapphire-clouds.github.io/travel-website/main.html)
+
+## Features
+
+- **Home Page:** Captures the essence of Estonia with stunning imagery.
+- **Destinations:** Detailed descriptions and visuals of various Estonian destinations.
+- **Activities:** Information on diverse activities and experiences, from historical tours to nature adventures.
+- **Travel Tips:** Practical advice and local insights for traveling in Estonia.
+- **Accommodation:** Details on various accommodation options.
+- **Cuisine:** Recommendations and insights into Estonian cuisine.
+- **Events:** Information on upcoming events in Estonia.
+- **Resources:** Useful resources for travelers.
+- **Contact:** Reach out for more information or inquiries.
 
 ## Project Purpose
-This project was an opportunity to apply the frontend skills I've learned and to create a visually appealing and functional travel website.
 
+This project allowed me to apply my frontend development skills in a real-world context, creating a visually appealing and functional website that provides valuable information for travelers. 
+
+I hope you enjoy exploring Estonia through this website!
