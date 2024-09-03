@@ -23,6 +23,10 @@ Check out the live version of the website here: [Estonia: Travel Website](https:
 - **Resources:** Useful resources for travelers.
 - **Contact:** Reach out for more information or inquiries.
 
+## Images
+- **Home Page**
+  ![Home Page](https://github.com/user-attachments/assets/85ffae0d-1a9d-487f-b5ec-a3db5e96a73f)
+
 ## Project Purpose
 
 This project allowed me to apply my frontend development skills in a real-world context, creating a visually appealing and functional website that provides valuable information for travelers. 
