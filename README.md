@@ -4,7 +4,7 @@ Welcome to my first actual frontend project! This travel website was created as 
 
 ## Live Site
 
-Check out the live version of the website here: [Explore Estonia Travel Website](https://sapphire-clouds.github.io/travel-website/main.html)
+Check out the live version of the website here: [Estonia: Travel Website](https://sapphire-clouds.github.io/travel-website/main.html)
 
 ## Technologies Used
 - **HTML:** For structuring the content.
